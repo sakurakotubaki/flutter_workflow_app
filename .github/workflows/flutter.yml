@@ -18,8 +18,8 @@ jobs:
         with:
           flutter-version: '3.41.5'
       - name: Install packages
-        run: fvmflutter pub get
+        run: flutter pub get
       - name: Linter
-        run: fvm flutter analyze
+        run: flutter analyze
       - name: Test
-        run: fvm flutter test
+        run: flutter test
