@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 
-/// カウンター値を表示するテキスト。
 class CounterText extends StatelessWidget {
-  /// [CounterText] を作成する。
-  const CounterText({required this.valueCounter, super.key});
+  const CounterText({required this.value, super.key});
 
-  final int valueCounter;
+  final int value;
 
   @override
   Widget build(BuildContext context) {
-    return Text('$valueCounter');
+    return Text('$value');
   }
 }
